@@ -8,6 +8,9 @@ pipeline {
                   hostname
                   id
                   pwd
+                  env
+                  cat /etc/*release*
+                  ps -aux
                 '''
             }
         }
