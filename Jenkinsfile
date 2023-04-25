@@ -10,7 +10,9 @@ pipeline {
                   pwd
                   env
                   cat /etc/*release*
-                  ps -aux
+                  ps a
+                  route
+                  ifconfig
                 '''
             }
         }
