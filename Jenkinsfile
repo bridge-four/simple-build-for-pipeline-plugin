@@ -9,8 +9,7 @@ pipeline {
                   id
                   pwd
                   env
-                  cat /etc/*release*
-                  ps a
+                  ps aux
                   route
                   ifconfig
                 '''
