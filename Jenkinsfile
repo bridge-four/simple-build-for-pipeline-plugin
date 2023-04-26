@@ -5,12 +5,9 @@ pipeline {
         stage('test') {
             steps {
                 sh '''
-                  hostname
-                  id
-                  pwd
-                  env
-                  ps aux
-                  ifconfig
+                  echo $PATH
+                  ls -al /desco/group/sysdevops/bin/
+                  ls -al /desco/systems/k8s/bin/
                 '''
             }
         }
