@@ -10,7 +10,6 @@ pipeline {
                   pwd
                   env
                   ps aux
-                  route
                   ifconfig
                 '''
             }
